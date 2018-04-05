@@ -1,0 +1,30 @@
+.weather-app > div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+    max-width: 500px;
+}
+.btn-weather{
+    border: 2px solid lightgreen;
+    outline: none;
+    background-color: green;
+    padding: 7px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+}
+.weather-app span {
+    padding: 5px;
+    color: blue;
+}
+.weather-app input {
+    padding: 7px;
+    width: 21em;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+.weather-app h2 {
+    color: lightseagreen;
+    text-transform: capitalize
+}
